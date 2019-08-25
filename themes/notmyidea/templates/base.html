@@ -10,7 +10,7 @@
         {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
+        <link rel="authorization_endpoint" href="https://test.desmondrivet.com/auth/"/>
         <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/> 
         <link rel="micropub" href="https://micropubtest.desmondrivet.com"/>
         {% block extra_head %}{% endblock extra_head %}
